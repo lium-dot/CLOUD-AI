@@ -3,12 +3,12 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "CLOUD-AI~kQBWyaDY#0aZjbJzkTLCATOmQfhBERPTP5iYgStKYGBYFE8nMwVU",
+  SESSION_ID: process.env.SESSION_ID || "CLOUD-AI~5UIxVChb#cIqXzlrqxkH-SPQJIuWRac31kCB7_CG3Xt9sVWcn1sE",
   PREFIX: process.env.PREFIX || '.',
-  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
+  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : false, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : false,
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || '',
-  AUTO_DL: process.env.AUTO_DL !== undefined ? process.env.AUTO_DL === 'true' : true,
+  AUTO_DL: process.env.AUTO_DL !== undefined ? process.env.AUTO_DL === 'true' : false,
   AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : false,
   AUTO_TYPING: process.env.AUTO_TYPING !== undefined ? process.env.AUTO_TYPING === 'true' : true,
   AUTO_RECORDING: process.env.AUTO_RECORDING !== undefined ? process.env.AUTO_RECORDING === 'true' : false,
@@ -19,10 +19,10 @@ const config = {
   
   
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : true, 
-  NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
+  NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : false,
   MODE: process.env.MODE || "private",
   BOT_NAME: process.env.BOT_NAME || "ℂ𝕃𝕆𝕌𝔻 𝔸𝕀",
-  MENU_IMAGE: process.env.MENU_IMAGE || "https://i.ibb.co/h0Sw13b/file-1285.jpg",
+  MENU_IMAGE: process.env.MENU_IMAGE || "https://i.ibb.co/V0xFsD0C/file-1360.jpg",
   DESCRIPTION: process.env.DESCRIPTION || "© ᴘσωєʀє∂ ву ★Ꭿ☼︎ℒ☼︎ℒ✩ℰ✫ℕ♫",
   OWNER_NAME: process.env.OWNER_NAME || "★Ꭿ☼︎ℒ☼︎ℒ✩ℰ✫ℕ♫",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "254758443111",
